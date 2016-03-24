@@ -24,3 +24,6 @@ export HADOOP_HOME=/usr/share/hadoop-1.2.1
 export PATH=$HADOOP_HOME/bin:$PATH
 export HADOOP_HOME_WARN_SUPPRESS=1
 
+export CLASSPATH=.:${HADOOP_HOME}/hadoop-core-1.2.1.jar:${CLASSPATH}
+
+
